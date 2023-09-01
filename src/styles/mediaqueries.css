@@ -1,0 +1,198 @@
+@media screen and (max-width: 992px) {
+  .hidemob {
+    display: none;
+  }
+}
+@media screen and (max-width: 868px) {
+  .mobilehide {
+    display: none;
+  }
+}
+@media screen and (min-width: 869px) {
+  .webhide {
+    display: none;
+  }
+}
+@media screen and (max-width: 930px) {
+  .mobilehidetext2 {
+    display: none;
+  }
+}
+@media screen and (min-width: 931px) {
+  .webhidetext2 {
+    display: none;
+  }
+}
+@media screen and (min-width: 993px) {
+  .hideweb {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mintImage {
+    width: 100%;
+    height: 150px;
+  }
+  .mintImageUpload {
+    width: 100%;
+    height: 150px;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 575px) {
+  .mintImage {
+    width: 100%;
+    height: 200px;
+  }
+  .mintImageUpload {
+    width: 100%;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .paddingTextmint {
+    padding-top: 40px;
+  }
+  .homeText1 {
+    font-size: 36px;
+  }
+  .homeTextmint {
+    font-size: 36px;
+  }
+  .homeText3 {
+    font-size: 48px;
+    line-height: 50px;
+  }
+  .welcometext {
+    font-size: 36px;
+  }
+  .welcometext1 {
+    font-size: 18px;
+  }
+  .welcometext2 {
+    font-size: 18px;
+  }
+  .apktext {
+    font-size: 32px;
+  }
+  .homecard {
+    height: 230px;
+    object-fit: contain;
+  }
+  .homedetailimage {
+    height: 300px;
+  }
+  .suitetitle {
+    font-size: 26px;
+  }
+  .suitedesc {
+    font-size: 14px;
+  }
+  .bottomText {
+    font-size: 48px;
+  }
+
+  .mintUploadImage {
+    width: 70%;
+  }
+  .flexButton {
+    justify-content: center;
+    flex-direction: row;
+    margin: 20px 0 0 0;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .homeText1 {
+    font-size: 64px;
+  }
+  .homeTextmint {
+    font-size: 64px;
+  }
+  .homeText3 {
+    font-size: 86px;
+  }
+  .welcometext {
+    font-size: 38px;
+  }
+  .welcometext1 {
+    font-size: 18px;
+  }
+  .welcometext2 {
+    font-size: 18px;
+  }
+  .homecard {
+    height: 440px;
+  }
+  .suitetitle {
+    font-size: 32px;
+  }
+  .suitedesc {
+    font-size: 14px;
+  }
+  .mintImage {
+    width: 100%;
+  }
+  .mintImageUpload {
+    width: 100%;
+  }
+  .mintUploadImage {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .homeText1 {
+    font-size: 76px;
+  }
+  .homeTextmint {
+    font-size: 66px;
+  }
+  .homeText3 {
+    font-size: 96px;
+  }
+  .welcometext {
+    font-size: 48px;
+  }
+  .welcometext1 {
+    font-size: 18px;
+  }
+  .welcometext2 {
+    font-size: 18px;
+  }
+  .homecard {
+    height: 470px;
+  }
+  .suitetitle {
+    font-size: 40px;
+  }
+  .suitedesc {
+    font-size: 14px;
+  }
+  .mintImage {
+    width: 100%;
+  }
+  .mintUploadImage {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .homeText1 {
+    font-size: 86px;
+  }
+  .homeTextmint {
+    font-size: 66px;
+  }
+  .homeText3 {
+    font-size: 106px;
+  }
+  .welcometext {
+    font-size: 54px;
+  }
+  .welcometext1 {
+    font-size: 21px;
+  }
+  .mintImage {
+    width: 100%;
+  }
+  .mintUploadImage {
+    width: 70%;
+  }
+}

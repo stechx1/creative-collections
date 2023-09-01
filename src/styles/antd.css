@@ -1,0 +1,29 @@
+.ant-layout-header {
+  background: none;
+}
+.ant-input:hover {
+  border-color: #d6b940;
+}
+.ant-input:focus {
+  border-color: #d6b940;
+  /* box-shadow: 0 0 0 2px rgb(214 185 64 / 20%); */
+  box-shadow: 0px 2px rgb(214 185 64 / 20%);
+}
+.customswalcancel:focus {
+  box-shadow: none !important;
+}
+.textturncatetitle {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.textturncatedesc {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.ant-spin-dot-item {
+  background-color: #d6b940;
+}
