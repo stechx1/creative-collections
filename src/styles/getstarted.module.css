@@ -1,0 +1,14 @@
+.container {
+  padding: 40px 0px;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.gridContainer {
+  margin: 40px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, auto); 
+  gap: 20px; 
+  grid-row-gap: 80px;
+}

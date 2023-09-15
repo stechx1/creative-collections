@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .nav {
+    display: none; /* Hide the .nav element on mobile */
+  }
+}
+
+
+.centerNav {
+  display: flex;
+  gap: 40px;
+}
+
+@media (max-width: 1067px) {
+  .centerNav {
+    gap: 20px;
+  }
+}
+@media (max-width: 990px) {
+  .centerNav {
+    gap: 10px;
+  }
+}
+.buttonNav {
+  display: flex;
+  gap: 20px;
+}

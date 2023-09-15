@@ -1,12 +1,13 @@
-import { Route, Routes } from "react-router-dom";
-import "./App.css";
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
 // import { lazy, Suspense } from "react";
-import LoaderHome from "./components/loader/loaderHome";
-import Error404 from "./components/errors/404Error";
-import Home from "./components/layout/Home";
-import NFTmint from "./components/layout/NFTmint";
-import NFTMarketPlace from "./components/layout/NFTMarketPlace";
-import HomeLayout from "./components/layout/HomeLayout";
+import LoaderHome from './components/loader/loaderHome';
+import Error404 from './components/errors/404Error';
+import Home from './components/layout/Home';
+import NFTmint from './components/layout/NFTmint';
+import NFTMarketPlace from './components/layout/NFTMarketPlace';
+import HomeLayout from './components/layout/HomeLayout';
+import { GetStarted } from './components/GetStarted';
 
 // const Error404 = lazy(() => import("./components/errors/404Error"));
 // const Home = lazy(() => import("./components/layout/Home"));
@@ -15,15 +16,16 @@ import HomeLayout from "./components/layout/HomeLayout";
 
 function App() {
   return (
-    <div className="fontToUse">
+    <div className='fontToUse'>
       {/* <Suspense fallback={<LoaderHome />}> */}
       <Routes>
-        <Route path="/" element={<HomeLayout />}>
+        <Route path='/' element={<HomeLayout />}>
           <Route index element={<Home />} />
-          <Route path="/create-collectible" element={<NFTmint />} />
-          <Route path="/nftmarketplace" element={<NFTMarketPlace />} />
+          <Route path='/create-collectible' element={<NFTmint />} />
+          <Route path='/nftmarketplace' element={<NFTMarketPlace />} />
+          <Route path='/getstarted' element={<GetStarted/>} />
         </Route>
-        <Route path="*" element={<Error404 />}></Route>
+        <Route path='*' element={<Error404 />}></Route>
       </Routes>
       {/* </Suspense> */}
     </div>
