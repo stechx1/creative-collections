@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Button } from "antd";
+import { Button } from 'antd';
 
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -88,19 +88,25 @@ const HomeSectionOne = () => {
               here
             </a>
           </p>
-          <Button
-            style={{
-              height: "50px",
-              borderRadius: "25px",
-              width: "220px",
-              backgroundColor: Colors.main,
-              borderColor: Colors.main,
-              marginTop: "35px",
-            }}
-            type="primary"
+          <a
+            href='https://www.c8cstudio.com/product-page/cre8tive-collective-vr'
+            target='_blank'
+            rel='noreferrer'
           >
-            Download
-          </Button>
+            <Button
+              style={{
+                height: '50px',
+                borderRadius: '25px',
+                width: '220px',
+                backgroundColor: Colors.main,
+                borderColor: Colors.main,
+                marginTop: '35px',
+              }}
+              type='primary'
+            >
+              Download
+            </Button>
+          </a>
         </Col>
         <Col
           sm={{ order: 'last', span: '6' }}
